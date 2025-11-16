@@ -3,12 +3,13 @@ description: "Learning • Building • Sharing about Data Engineering, Cloud, a
 url: "https://vrajans.github.io"
 
 # FIX: Use GitHub Pages-compatible version
-remote_theme: "mmistakes/minimal-mistakes@4.19.1"
+theme: "minimal-mistakes-jekyll"
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
 markdown: kramdown
 
