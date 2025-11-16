@@ -2,7 +2,7 @@ title: "Varatharajan | Data Engineering & AI"
 description: "Learning • Building • Sharing about Data Engineering, Cloud, and AI"
 url: "https://vrajans.github.io"
 
-# Enable Minimal Mistakes (required for GitHub Pages)
+# FIX: Use GitHub Pages-compatible version
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 
 plugins:
@@ -12,19 +12,16 @@ plugins:
 
 markdown: kramdown
 
-# Author Info
 author:
   name: "Varatharajan Subramanian"
   avatar: "/assets/profile.png"
   bio: "Data Engineering Manager | Cloud | AI | Architecting Data Solutions"
   location: "Dallas, TX"
 
-# Output posts
 collections:
   posts:
     output: true
 
-# Default settings
 defaults:
   - scope:
       path: ""
