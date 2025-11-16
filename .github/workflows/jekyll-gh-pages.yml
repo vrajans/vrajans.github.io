@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'   # Compatible with Minimal Mistakes
+          ruby-version: '3.1'
           bundler-cache: true
 
       - name: Install dependencies
@@ -32,10 +32,10 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build --trace
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
         with:
-          name: jekyll-site
+          name: site
           path: _site/
 
   deploy:
@@ -47,10 +47,10 @@ jobs:
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
-          name: jekyll-site
+          name: site
           path: .
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
