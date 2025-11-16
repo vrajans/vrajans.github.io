@@ -1,0 +1,39 @@
+title: "Varatharajan | Data Engineering & AI"
+description: "Learning • Building • Sharing about Data Engineering, Cloud, and AI"
+url: "https://vrajans.github.io"
+
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+author:
+  name: "Varatharajan Subramanian"
+  avatar: "/assets/profile.png"
+  bio: "Data Engineering Manager | Cloud | AI | Architecting Data Solutions"
+  location: "Dallas, TX"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/vrajans"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/varatharajan-subramanian"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://x.com/<yourhandle>"
+
+# Navigation
+collections:
+  posts:
+    output: true
+
+# Navbar
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
