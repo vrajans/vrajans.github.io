@@ -2,36 +2,29 @@ title: "Varatharajan | Data Engineering & AI"
 description: "Learning • Building • Sharing about Data Engineering, Cloud, and AI"
 url: "https://vrajans.github.io"
 
-theme: minimal-mistakes-jekyll
+# Enable Minimal Mistakes (required for GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
 markdown: kramdown
 
+# Author Info
 author:
   name: "Varatharajan Subramanian"
   avatar: "/assets/profile.png"
   bio: "Data Engineering Manager | Cloud | AI | Architecting Data Solutions"
   location: "Dallas, TX"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/vrajans"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/varatharajan-subramanian"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://x.com/<yourhandle>"
 
-# Navigation
+# Output posts
 collections:
   posts:
     output: true
 
-# Navbar
+# Default settings
 defaults:
   - scope:
       path: ""
