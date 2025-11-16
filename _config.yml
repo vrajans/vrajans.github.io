@@ -3,7 +3,7 @@ description: "Learning • Building • Sharing about Data Engineering, Cloud, a
 url: "https://vrajans.github.io"
 
 # Enable Minimal Mistakes (required for GitHub Pages)
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 
 plugins:
   - jekyll-remote-theme
